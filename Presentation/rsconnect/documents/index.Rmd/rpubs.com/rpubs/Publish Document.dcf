@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/136998/527936bce298436c98bcadaaf5f1034a
+url: http://rpubs.com/Mvijay88/136998
+when: 1450995594.25588

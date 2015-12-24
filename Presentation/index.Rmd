@@ -1,0 +1,57 @@
+---
+title       : Developing Data Products-Project Presentation
+subtitle    : 
+author      : Vijay anand M
+job         : Software Engineer
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+## Project BackGround
+
+This application is created using Shiny and hosted in Shinyapps.IO. This presentation is developed as part Developing data products course and helps reader to understand the application easily.The tools used to build this application and presentation are,
+
+* Data Product application built on Shiny
+* Slidify is used to create the presentation.
+
+---
+
+## Application Overview
+
+   I have used MTCARS dataset to do a small manipulation on it. This Dataset provide information about the list of cars and their milegage based on Per Gallon.This assignment helped us to ensure which cars provides more milage with repect to various parameters.
+Now this application has been deployed in this link,https://vijayanand.shinyapps.io/Developing-Data-products
+
+* This application allows the users to check the milage based on various parameters.
+* The Parameters used in this application are Cylinder,Transmission,Gear.
+
+---
+
+## Data Overview
+
+The Data for this project has been otained from inbuilt datasets in the Rstudio itself. MTCARS is the dataset used for this project.
+This dataset was used by us in various coursera courses.
+
+The source code for this application can be obtained from Github,
+https://github.com/Viru1988/Developing-Data-products
+
+---
+
+## Data Processing
+
+```{r,echo=TRUE}
+dt<-mtcars
+head(dt)
+```
+
+
+---
+
+Thank you
+---
+
+
